@@ -1,0 +1,7 @@
+init_config:
+  ApiKey: xyz
+
+instances:
+  - city: Paris
+  - city: London
+  - city: Amsterdam
