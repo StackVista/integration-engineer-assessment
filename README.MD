@@ -51,6 +51,8 @@ We would like you to package your solution into a docker image and create a Kube
 
 At StackState we value testing and QA very highly. Make sure your code is well tested covering various levels of the testing pyramid. Consider this solution as something that needs to be shipped to production, thus making it easily debug-able and maintainable in the future by other developers. Amongst other things include logging as well as comments describing your code.
 
+The Weather API is an external service, use best practices for communication with external API's. (eg. Dealing with network issues)
+
 ## Delivery
 
 Deliver your solution in the form of a git repository with a README.
